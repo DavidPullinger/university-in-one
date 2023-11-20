@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
+    <script type="text/javascript" src="/eel.js"></script>
+    <title>X - Hand</title>
+  </head>
+  <body>
+    <h1>Welcome to X - Hand</h1>
+    <div>
+      <label id="image_upload_label" for="image_upload">Select X-ray images</label>
+      <input id="image_upload" multiple accept=".png" type="file" />
+    </div>
+    <div class="preview">
+      <p class="error">No files currently selected for processing</p>
+    </div>
+    <div class="overlay hidden">
+      <p id="hide_overlay" onclick="toggle_overlay()">&#10006;</p>
+    </div>
+    <div>
+      <button disabled id="send_images" onclick="send_images()" id="get-images" type="submit">Process Images</button>
+      <p id="loading" class="hidden">Loading...</p>
+    </div>
+  </body>
+  <script type="text/javascript" src="index.js"></script>
+</html>

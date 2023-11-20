@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"MedianFilter"},{"p":"<Unnamed>","l":"ParallelMedianFilter"},{"p":"<Unnamed>","l":"SerialMedianFilter"}];updateSearchResults();
