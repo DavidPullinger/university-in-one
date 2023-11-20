@@ -1,2 +1,2 @@
 # university-projects
-A collection of interesting project's I completed while at university.
+A collection of interesting projects I completed while at university.
